@@ -1,0 +1,44 @@
+{
+  "name": "owapp",
+  "version": "0.1.0",
+  "authors": [
+    "Prafull Kherde <prafull.kherde@gmail.com>"
+  ],
+  "description": "A weather forecast app written in AngularJS.",
+  "main": "app/index.html",
+  "keywords": [
+    "angular",
+    "openweathermap",
+    "weather"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/prafullkherde/myRepo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	"angular": "~1.5.0",
+	"angular-cookies": "~1.5.0",   
+    "angular-resource": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular-sanitize": "~1.5.0",
+	"angular-touch": "~1.5.0",
+    "angular-ui-router": "~0.2.18",
+    "bootstrap": "~3.0.0",
+    "iso-3166-country-codes-angular": "~1.0.2"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "devDependencies": {  
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.4.5",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jasmine": "^0.3.5"
+  }
+}
