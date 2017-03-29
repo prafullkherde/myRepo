@@ -1,3 +1,8 @@
+/* Created by prafull.kherde on 25-03-2017.
+ * For MyWeatherApp 
+ */
+ 
+(function () {
 'use strict';
 
 // Declare app level module which depends on filters, and services
@@ -13,3 +18,5 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/forecast', {templateUrl: 'partials/forecast.html', controller: 'myWeatherCtrl'});  
   $routeProvider.otherwise({redirectTo: '/forecast'});
 }]);
+
+})();
