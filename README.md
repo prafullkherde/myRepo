@@ -3,23 +3,23 @@
 <img src="app/img/myWaetherApp.jpeg" alt="myWeather App"/>
 
 "myWeather App" is a small AngularJS project that makes use of the [OpenWeatherMap](http://openweathermap.org/)
-service for fetching and displaying weather data and forecasts based on a given location (city).
+Service for fetching and displaying weather data and forecasts based on a given location (city).
 
 
 ## Code challenge 
 
-* Building an app with AngularJS like services, derective
+* Building an app with AngularJS like services, directive
 * Building an app based on the [OpenWeatherMap API](http://openweathermap.org/API/)
 * Defining a controller for handling the weather data
 * Deploying the same on PCF.
-* Resolving issues enconutered on cloud.
+* Resolving issues encountered on cloud.
 * Putting code on git hub.
-* Defining a service for fetchi	ng weather data from openweathermap.com via JSONP
+* Defining a service for fetch	ng weather data from openweathermap.com via JSONP
 * Defining a custom directive for instantly embedding sort of "weather data day panel"
 * Setting up unit test run with karma/jasmine
 
 ## Technology used 
-* Anjular JS 1.5
+* Angular JS 1.5
 * HTML 5
 * CSS3
 * Node JS 6.X
@@ -28,6 +28,8 @@ service for fetching and displaying weather data and forecasts based on a given 
 * Bower 
 * Karma
 * Jasmin
+* Code Repository:- GitHub
+* Cloud:- Pivotal
 
 ## Installation
 
@@ -40,7 +42,7 @@ By using git UI
 * Install latest node js
 * All development dependency where already resolved
 * if want to run server then
-* open  command promt and go to project base dir
+* open  command prompt and go to project base dir.
 * type npm start
 * this should start server on port 8000 (default port configured if not changed)
 * Hit http://localhost:8000/app/index.html
@@ -58,7 +60,7 @@ $ npm install
 Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in
 your browser.
 
-To see what exact response we get from  openweathermap.org refer project_base\rest\response.json
+To see what exact response we get from openweathermap.org refer <project base>\rest\response.json
 
 ## Demo
 
@@ -68,8 +70,8 @@ http://myweatherapp.cfapps.io
 ## Help & Questions
 Please drop a mail to me on prafull.kherde@gmail.com with all details
 
-## Can Do or Can improve with more time
-* This can be fitted like a one directive. So any one can use any where like component
+## Can do or can improve with more time
+* This can be fitted like a one directive. So any one can use anywhere like component
 * I can use more secure way as https://darksky.net/dev/docs/forecast
 * Some time it required time to get response so you see? On screen.
 * Can add proper logging system 
