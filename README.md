@@ -45,7 +45,8 @@ your browser.
 
 To see what exact response we get from  openweathermap.org refer project_base\rest\response.json
 
-##Demo
+## Demo
+
 To view demo of the application on cloud please hit below link.
 http://myweatherapp.cfapps.io
 
