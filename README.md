@@ -18,6 +18,17 @@ service for fetching and displaying weather data and forecasts based on a given 
 * Defining a custom directive for instantly embedding sort of "weather data day panel"
 * Setting up unit test run with karma/jasmine
 
+## Technology used 
+* Anjular JS 1.5
+* HTML 5
+* CSS3
+* Node JS 6.X
+* Bootstrap 3.X
+* Jquery
+* Bower 
+* Karma
+* Jasmin
+
 ## Installation
 
 You can pick one of these options:
