@@ -32,7 +32,7 @@ via git and npm:
 $ git clone git@github.com:prafullkherde/my-weather-app.git [my-app-name]
 $ cd [my-app-name]
 $ npm install
-```
+
 
 ## Run application via server
 
@@ -45,6 +45,9 @@ your browser.
 
 To see what exact response we get from  openweathermap.org refer project_base\rest\response.json
 
+##Demo
+To view demo of the application on cloud please hit below link.
+http://myweatherapp.cfapps.io
 
 ## Help
 Please drop a mail to me on prafull.kherde@gmail.com with all details
