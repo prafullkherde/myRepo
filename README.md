@@ -22,9 +22,9 @@ By using git UI
 * Install latest node js
 * All development dependency where already resolved
 * if need to run server then
-** open  command promt and go to project base dir
-** type npm start
-** this should start server on port 8000 (default port configured if not changed)
+* open  command promt and go to project base dir
+* type npm start
+* this should start server on port 8000 (default port configured if not changed)
 * Hit http://localhost:8000/app/index.html
 * You should see base page where you can select city from menu or type your custom city and hit search button.
 	
@@ -50,8 +50,9 @@ To see what exact response we get from  openweathermap.org refer project_base\re
 Please drop a mail to me on prafull.kherde@gmail.com with all details
 
 ## Can Do or Can improve with more time
-* This can be fitted like a directive 
+* This can be fitted like a just a one directive 
 * Can add proper logging system 
+* I can use more secure way as https://darksky.net/dev/docs/forecast
 * Some time it required time to get response so you see? On screen
 * Make use (and parse) more provided weather data (+ add filters, formatting)
 * Internationalization / Localization
